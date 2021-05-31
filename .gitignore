@@ -1,0 +1,7 @@
+
+.venv/
+dist/
+__pycache__/
+build/
+generatedfw.bin
+fw/wm2000/

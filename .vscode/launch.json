@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Windows: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "args": ["--bl=./fw/wm2000/wm2000_bootloader.bin","--mon=./fw/wm2000/wm2000_mon_release.bin", "--tios=./fw/wm2000/tios_release.bin", "--serial=COM6"],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python Mac: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "args": ["--bl=./fw/wm2000/wm2000_bootloader.bin","--mon=./fw/wm2000/wm2000_mon_release.bin", "--tios=./fw/wm2000/tios_release.bin", "--serial=/dev/cu.usbserial-1110"],
+            "console": "integratedTerminal"
+        }
+    ]
+}
