@@ -1,5 +1,5 @@
 #!/usr/bin/python
-
+import os
 import sys, getopt
 import firmware_upload as fwupload
 

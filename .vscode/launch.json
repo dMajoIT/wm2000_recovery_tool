@@ -9,7 +9,12 @@
             "type": "python",
             "request": "launch",
             "program": "${file}",
-            "args": ["--bl=./fw/wm2000/wm2000_bootloader.bin","--mon=./fw/wm2000/wm2000_mon_release.bin", "--tios=./fw/wm2000/tios_release.bin", "--serial=COM6"],
+            "args": [
+                "--bl=./fw/wm2000/wm2000_bootloader.bin",
+                "--mon=./fw/wm2000/wm2000_mon_release.bin",
+                "--tios=./fw/wm2000/tios_release.bin",
+                "--serial=COM6"
+            ],
             "console": "integratedTerminal"
         },
         {
@@ -17,7 +22,14 @@
             "type": "python",
             "request": "launch",
             "program": "${file}",
-            "args": ["--bl=./fw/wm2000/wm2000_bootloader.bin","--mon=./fw/wm2000/wm2000_mon_release.bin", "--tios=./fw/wm2000/tios_release.bin", "--serial=/dev/cu.usbserial-1110"],
+            "args": [
+                "--bl=./fw/WS1102/ws110x_bootloader.bin",
+                "--mon=./fw/WS1102/mon-ws1102-4.06.bin",
+                "--tios=./fw/WS1102/tios-ws1102-4_01_00.bin",
+                "--app0=./fw/WS1102/ws110x_companion.tpc",
+                "--app1=./fw/WS1102/soi_application-4_34.tpc",
+                "--serial=/dev/cu.usbserial-FT2SRQ3X"
+            ],
             "console": "integratedTerminal"
         }
     ]
