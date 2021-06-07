@@ -18,7 +18,7 @@
             "console": "integratedTerminal"
         },
         {
-            "name": "Python Mac: Current File",
+            "name": "Python Mac: WS1102",
             "type": "python",
             "request": "launch",
             "program": "${file}",
@@ -26,9 +26,22 @@
                 "--bl=./fw/WS1102/ws110x_bootloader.bin",
                 "--mon=./fw/WS1102/mon-ws1102-4.06.bin",
                 "--tios=./fw/WS1102/tios-ws1102-4_01_01.bin",
-                //"--app0=./fw/WS1102/ws110x_companion.tpc",
-                //"--app1=./fw/WS1102/soi_application-4_34.tpc",
+                "--app0=./fw/WS1102/ws110x_companion.tpc",
+                "--app1=./fw/WS1102/soi_application-4_34.tpc",
                 "--serial=/dev/cu.usbserial-220"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python Mac: WM2000",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "args": [
+                "--bl=./fw/WM2000/wm2000_bootloader.bin",
+                "--mon=./fw/WM2000/mon-wm2000-4.06.bin",
+                "--tios=./fw/WM2000/tios-wm2000-4_01_01.bin",
+                "--serial=/dev/cu.usbserial-440"
             ],
             "console": "integratedTerminal"
         }
