@@ -25,10 +25,10 @@
             "args": [
                 "--bl=./fw/WS1102/ws110x_bootloader.bin",
                 "--mon=./fw/WS1102/mon-ws1102-4.06.bin",
-                "--tios=./fw/WS1102/tios-ws1102-4_01_00.bin",
-                "--app0=./fw/WS1102/ws110x_companion.tpc",
-                "--app1=./fw/WS1102/soi_application-4_34.tpc",
-                "--serial=/dev/cu.usbserial-FT2SRQ3X"
+                "--tios=./fw/WS1102/tios-ws1102-4_01_01.bin",
+                //"--app0=./fw/WS1102/ws110x_companion.tpc",
+                //"--app1=./fw/WS1102/soi_application-4_34.tpc",
+                "--serial=/dev/cu.usbserial-220"
             ],
             "console": "integratedTerminal"
         }
