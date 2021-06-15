@@ -27,8 +27,8 @@
                 "--mon=./fw/WS1102/mon-ws1102-4_07.bin",
                 "--tios=./fw/WS1102/tios-ws1102-4_01_02.bin",
                 "--app0=./fw/WS1102/ws110x_companion.tpc",
-                "--app1=./fw/WS1102/soi_application-4_34.tpc",
-                "--serial=/dev/cu.usbserial-220"
+                "--app1=./fw/WS1102/soi_application-4_35.tpc",
+                "--serial=/dev/cu.usbserial-FT2SRQ3X"
             ],
             "console": "integratedTerminal"
         },
@@ -41,7 +41,7 @@
                 "--bl=./fw/wm2000/wm2000-bootloader-4_07.bin",
                 "--mon=./fw/wm2000/mon-wm2000-4_07.bin",
                 "--tios=./fw/wm2000/tios-wm2000-4_01_02.bin",
-                "--serial=/dev/cu.usbserial-440"
+                "--serial=/dev/cu.usbserial-FT2SRQ3X"
             ],
             "console": "integratedTerminal"
         }
