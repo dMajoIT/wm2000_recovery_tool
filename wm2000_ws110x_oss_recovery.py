@@ -97,7 +97,7 @@ def main(argv):
         
         f.write(fw)   
         
-    fwupload.upload(sp,["./fw/uploader/uart_hs.bin","./fw/uploader/ated_hs.bin","./generatedfw.bin"])
+    print ( fwupload.upload(sp,["./fw/uploader/uart_hs.bin","./fw/uploader/ated_hs.bin","./generatedfw.bin"]) )
 
 if __name__ == "__main__":
     main(sys.argv[1:])
