@@ -41,7 +41,8 @@
                 "--bl=./fw/wm2000/wm2000-bootloader-4_07.bin",
                 "--mon=./fw/wm2000/mon-wm2000-4_07.bin",
                 "--tios=./fw/wm2000/tios-wm2000-4_01_02.bin",
-                "--serial=/dev/cu.usbserial-FT2SRQ3X"
+                "--app0=./fw/wm2000/WM2000-Companion.tpc",
+                "--serial=/dev/cu.usbserial-510"
             ],
             "console": "integratedTerminal"
         }
