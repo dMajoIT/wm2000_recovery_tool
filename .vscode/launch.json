@@ -24,7 +24,7 @@
             "program": "${file}",
             "args": [
                 "--bl=./fw/WS1102/ws110x-bootloader-4_07.bin",
-                "--mon=./fw/WS1102/mon-ws1102-4_07.bin",
+                "--mon=./fw/WS1102/mon-ws1102-4_08.bin",
                 "--tios=./fw/WS1102/tios-ws1102-4_01_02.bin",
                 "--app0=./fw/WS1102/ws110x_companion.tpc",
                 "--app1=./fw/WS1102/soi_application-4_35.tpc",
@@ -39,7 +39,7 @@
             "program": "${file}",
             "args": [
                 "--bl=./fw/wm2000/wm2000-bootloader-4_07.bin",
-                "--mon=./fw/wm2000/mon-wm2000-4_07.bin",
+                "--mon=./fw/wm2000/mon-wm2000-4_08.bin",
                 "--tios=./fw/wm2000/tios-wm2000-4_01_02.bin",
                 "--app0=./fw/wm2000/WM2000-Companion.tpc",
                 "--serial=/dev/cu.usbserial-510"
