@@ -11,7 +11,7 @@
             "program": "./wm2000_ws110x_oss_recovery.py",
             "args": [
                 "--bl=./fw/wm2000/wm2000-bootloader-4_07.bin",
-                "--mon=./fw/wm2000/mon-wm2000-4_09.bin",
+                "--mon=./fw/wm2000/mon-wm2000-4_11.bin",
                 "--tios=./fw/wm2000/tios-wm2000-4_03_03.bin",
                 "--serial=COM9"
             ],
