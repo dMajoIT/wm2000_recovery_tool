@@ -20,6 +20,8 @@ After Python has sucessfully installed. Open command prompt in the WM2000_Recove
 
 # Running the Recovery Tool
 
+On the bottom of the WM2000EV there is a HM button. Press and hold this button then plug in the USB cable. Release the button and your board is ready to perform the update.
+
 Now, with all the files prepared, you can run the command "python wm2000_ws1102_oss_recovery.py" wtih appropriate fields, it should proceed and look something like below.
 
 ![](media/Screenshot%202023-07-04%20101306.png)
