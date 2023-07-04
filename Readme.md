@@ -1,4 +1,4 @@
-#Installing Python
+# Installing Python
 
 Please download the latest Python for your OS. 
 
@@ -12,13 +12,13 @@ You can now type "Python" in command prompt to see the version of installed Pyth
 
 ![](media/Screenshot%202023-07-04%20101155.png)
 
-#Installing the Required Components
+# Installing the Required Components
 
 After Python has sucessfully installed. Open command prompt in the WM2000_Recovery_Tool folder and issue "pip3 install -r requirements" to install the necessary components.
 
 ![](media/Screenshot%202023-07-04%20100953.png)
 
-#Running the Recovery Tool
+# Running the Recovery Tool
 
 Now, with all the files prepared, you can run the command "python wm2000_ws1102_oss_recovery.py" wtih appropriate fields, it should proceed and look something like below.
 
